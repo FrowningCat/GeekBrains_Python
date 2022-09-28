@@ -1,5 +1,6 @@
 num = int(input('Enter a number '))
 x = 1
 for i in range(num):
-    print(x)
-    x = i * (-3)
+    print(x, end=' ')
+    x *= -3
+
