@@ -12,6 +12,3 @@ def add():
     file = 'available.txt'
     with open(file, 'a', encoding='utf-8') as data:
         data.write(f'In stock: {info}\n')
-
-
-add()

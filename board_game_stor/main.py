@@ -1,21 +1,29 @@
-from user_interface import inter
+def menu():
 
-x = inter()
+    from user_interface import inter
 
-if x == 1:
-    from add_game import add
+    x = inter()
 
-elif x == 2:
-    from available_games import available
+    if x == 1:
+        from add_game import add
+        add()
 
-elif x == 3:
-    from order_game import order
+    elif x == 2:
+        from available_games import available
+        available()
 
-elif x == 4:
-    from games_that_well_appear_soon import soon
+    elif x == 3:
+        from order_game import order
+        order()
 
-elif x == 5:
-    from registration import regi
+    elif x == 4:
+        from games_that_well_appear_soon import soon
+        soon()
 
-else:
-    from user_date import users
+    elif x == 5:
+        from registration import regi
+        regi()
+
+    else:
+        from user_date import users
+        users()

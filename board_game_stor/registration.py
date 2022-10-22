@@ -27,6 +27,3 @@ def regi():
     file = 'date.txt'
     with open(file, 'a', encoding='utf-8') as data:
         data.write(f'User: {info}\n')
-
-
-regi()

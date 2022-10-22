@@ -25,6 +25,3 @@ def order():
     file = 'soon.txt'
     with open(file, 'a', encoding='utf-8') as data:
         data.write(f'To order: {info}\n')
-
-
-order()
